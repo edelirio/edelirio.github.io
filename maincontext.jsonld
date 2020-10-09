@@ -1,0 +1,6 @@
+{
+   "@context": [
+     "https://fiware.github.io/data-models/context.jsonld",
+     "https://edelirio.github.io/context.jsonld"
+   ]
+}
