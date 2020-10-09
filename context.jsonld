@@ -153,6 +153,6 @@
 	      "@type": "@id",
 	      "@container": "@list"
       },
-      "@vocab": "https://uri.etsi.org/ngsi-ld/default-context/"
+      "@vocab": "https://fiware.github.io/data-models/context.jsonld"
     }
 }
