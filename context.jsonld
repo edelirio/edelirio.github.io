@@ -1,158 +1,158 @@
 {
     "@context": {
-      "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",    
+      "ngsi-ld": "https://edelirio.github.io/",    
       "id": "@id",
       "type": "@type",
       "value": "https://uri.etsi.org/ngsi-ld/hasValue",
       "object": {
-        "@id": "https://uri.etsi.org/ngsi-ld/hasObject",
+        "@id": "https://edelirio.github.io/hasObject",
         "@type":"@id"
       },
-      "Property": "https://uri.etsi.org/ngsi-ld/Property",
-      "Relationship": "https://uri.etsi.org/ngsi-ld/Relationship",
-      "DateTime": "https://uri.etsi.org/ngsi-ld/DateTime",
-      "Date": "https://uri.etsi.org/ngsi-ld/Date",
-      "Time": "https://uri.etsi.org/ngsi-ld/Time",
+      "Property": "https://edelirio.github.io/Property",
+      "Relationship": "https://edelirio.github.io/Relationship",
+      "DateTime": "https://edelirio.github.io/DateTime",
+      "Date": "https://edelirio.github.io/Date",
+      "Time": "https://edelirio.github.io/Time",
       "createdAt": {
-        "@id": "https://uri.etsi.org/ngsi-ld/createdAt",
+        "@id": "https://edelirio.github.io/createdAt",
         "@type": "DateTime"
       },
       "modifiedAt": {
-        "@id": "https://uri.etsi.org/ngsi-ld/modifiedAt",
+        "@id": "https://edelirio.github.io/modifiedAt",
         "@type": "DateTime"
       },
       "observedAt": {
-        "@id": "https://uri.etsi.org/ngsi-ld/observedAt",
+        "@id": "https://edelirio.github.io/observedAt",
         "@type": "DateTime"
       },
       "datasetId": {
-        "@id": "https://uri.etsi.org/ngsi-ld/datasetId",
+        "@id": "https://edelirio.github.io/datasetId",
         "@type": "@id"
       },
       "instanceId": {
-        "@id": "https://uri.etsi.org/ngsi-ld/instanceId",
+        "@id": "https://edelirio.github.io/instanceId",
         "@type": "@id"
       },
-      "unitCode": "https://uri.etsi.org/ngsi-ld/unitCode",
-      "location": "https://uri.etsi.org/ngsi-ld/location",
-      "observationSpace": "https://uri.etsi.org/ngsi-ld/observationSpace",
-      "operationSpace": "https://uri.etsi.org/ngsi-ld/operationSpace",
-      "GeoProperty": "https://uri.etsi.org/ngsi-ld/GeoProperty",
-      "TemporalProperty": "https://uri.etsi.org/ngsi-ld/TemporalProperty",
-      "ContextSourceRegistration": "https://uri.etsi.org/ngsi-ld/ContextSourceRegistration",
-      "Subscription": "https://uri.etsi.org/ngsi-ld/Subscription", 
-      "Notification": "https://uri.etsi.org/ngsi-ld/Notification",
-      "ContextSourceNotification": "https://uri.etsi.org/ngsi-ld/ContextSourceNotification",
-      "title": "https://uri.etsi.org/ngsi-ld/title",
-      "detail": "https://uri.etsi.org/ngsi-ld/detail",
-      "idPattern": "https://uri.etsi.org/ngsi-ld/idPattern",
-      "name": "https://uri.etsi.org/ngsi-ld/name",
-      "description": "https://uri.etsi.org/ngsi-ld/description",
-      "information": "https://uri.etsi.org/ngsi-ld/information",
-      "observationInterval": "https://uri.etsi.org/ngsi-ld/observationInterval",
-      "managementInterval": "https://uri.etsi.org/ngsi-ld/managementInterval",
+      "unitCode": "https://edelirio.github.io/unitCode",
+      "location": "https://edelirio.github.io/location",
+      "observationSpace": "https://edelirio.github.io/observationSpace",
+      "operationSpace": "https://edelirio.github.io/operationSpace",
+      "GeoProperty": "https://edelirio.github.io/GeoProperty",
+      "TemporalProperty": "https://edelirio.github.io/TemporalProperty",
+      "ContextSourceRegistration": "https://edelirio.github.io/ContextSourceRegistration",
+      "Subscription": "https://edelirio.github.io/Subscription", 
+      "Notification": "https://edelirio.github.io/Notification",
+      "ContextSourceNotification": "https://edelirio.github.io/ContextSourceNotification",
+      "title": "https://edelirio.github.io/title",
+      "detail": "https://edelirio.github.io/detail",
+      "idPattern": "https://edelirio.github.io/idPattern",
+      "name": "https://edelirio.github.io/name",
+      "description": "https://edelirio.github.io/description",
+      "information": "https://edelirio.github.io/information",
+      "observationInterval": "https://edelirio.github.io/observationInterval",
+      "managementInterval": "https://edelirio.github.io/managementInterval",
       "expires": {
-        "@id": "https://uri.etsi.org/ngsi-ld/expires",
+        "@id": "https://edelirio.github.io/expires",
         "@type": "DateTime"
       },
-      "endpoint": "https://uri.etsi.org/ngsi-ld/endpoint",
-      "entities": "https://uri.etsi.org/ngsi-ld/entities",
+      "endpoint": "https://edelirio.github.io/endpoint",
+      "entities": "https://edelirio.github.io/entities",
       "properties": {
-        "@id": "https://uri.etsi.org/ngsi-ld/properties",
+        "@id": "https://edelirio.github.io/properties",
         "@type": "@vocab"
       },
       "relationships": {
-        "@id": "https://uri.etsi.org/ngsi-ld/relationships",
+        "@id": "https://edelirio.github.io/relationships",
         "@type": "@vocab"
       },
       "start": {
-        "@id": "https://uri.etsi.org/ngsi-ld/start",
+        "@id": "https://edelirio.github.io/start",
         "@type": "DateTime"
       },
       "end": {
-        "@id": "https://uri.etsi.org/ngsi-ld/end",
+        "@id": "https://edelirio.github.io/end",
         "@type": "DateTime"
       },
       "watchedAttributes":{
-        "@id": "https://uri.etsi.org/ngsi-ld/watchedAttributes",
+        "@id": "https://edelirio.github.io/watchedAttributes",
         "@type": "@vocab"
       },
-      "timeInterval": "https://uri.etsi.org/ngsi-ld/timeInterval",
-      "q": "https://uri.etsi.org/ngsi-ld/q",
-      "geoQ": "https://uri.etsi.org/ngsi-ld/geoQ",
-      "csf": "https://uri.etsi.org/ngsi-ld/csf",
-      "isActive": "https://uri.etsi.org/ngsi-ld/isActive",
-      "notification": "https://uri.etsi.org/ngsi-ld/notification",
-      "status": "https://uri.etsi.org/ngsi-ld/status",
-      "throttling": "https://uri.etsi.org/ngsi-ld/throttling",
-      "temporalQ": "https://uri.etsi.org/ngsi-ld/temporalQ",
-      "geometry": "https://uri.etsi.org/ngsi-ld/geometry",
-      "coordinates": "https://uri.etsi.org/ngsi-ld/coordinates",
-      "georel": "https://uri.etsi.org/ngsi-ld/georel",
-      "geoproperty": "https://uri.etsi.org/ngsi-ld/geoproperty",
+      "timeInterval": "https://edelirio.github.io/timeInterval",
+      "q": "https://edelirio.github.io/q",
+      "geoQ": "https://edelirio.github.io/geoQ",
+      "csf": "https://edelirio.github.io/csf",
+      "isActive": "https://edelirio.github.io/isActive",
+	  "customAttribute": "https://edelirio.github.io/customAttribute",
+      "notification": "https://edelirio.github.io/notification",
+      "status": "https://edelirio.github.io/status",
+      "throttling": "https://edelirio.github.io/throttling",
+      "temporalQ": "https://edelirio.github.io/temporalQ",
+      "geometry": "https://edelirio.github.io/geometry",
+      "coordinates": "https://edelirio.github.io/coordinates",
+      "georel": "https://edelirio.github.io/georel",
+      "geoproperty": "https://edelirio.github.io/geoproperty",
       "attributes": {
-        "@id": "https://uri.etsi.org/ngsi-ld/attributes",
+        "@id": "https://edelirio.github.io/attributes",
         "@type": "@vocab"
       },
-      "format": "https://uri.etsi.org/ngsi-ld/format",
-      "timesSent": "https://uri.etsi.org/ngsi-ld/timesSent",
+      "format": "https://edelirio.github.io/format",
+      "timesSent": "https://edelirio.github.io/timesSent",
       "lastNotification":{
-        "@id": "https://uri.etsi.org/ngsi-ld/lastNotification",
+        "@id": "https://edelirio.github.io/lastNotification",
         "@type": "DateTime"
       },
       "lastFailure":{
-        "@id": "https://uri.etsi.org/ngsi-ld/lastFailure",
+        "@id": "https://edelirio.github.io/lastFailure",
         "@type": "DateTime"
       },
       "lastSuccess":{
-        "@id": "https://uri.etsi.org/ngsi-ld/lastSuccess",
+        "@id": "https://edelirio.github.io/lastSuccess",
         "@type": "DateTime"
       },
-      "uri": "https://uri.etsi.org/ngsi-ld/uri",
-      "accept": "https://uri.etsi.org/ngsi-ld/accept",
+      "uri": "https://edelirio.github.io/uri",
+      "accept": "https://edelirio.github.io/accept",
       "success": {
-        "@id": "https://uri.etsi.org/ngsi-ld/success",
+        "@id": "https://edelirio.github.io/success",
         "@type": "@id"
       },
-      "errors": "https://uri.etsi.org/ngsi-ld/errors",
-      "error": "https://uri.etsi.org/ngsi-ld/error",
+      "errors": "https://edelirio.github.io/errors",
+      "error": "https://edelirio.github.io/error",
       "entityId": {
-        "@id": "https://uri.etsi.org/ngsi-ld/entityId",
+        "@id": "https://edelirio.github.io/entityId",
         "@type": "@id"
       },
-      "updated": "https://uri.etsi.org/ngsi-ld/updated",
-      "unchanged": "https://uri.etsi.org/ngsi-ld/unchanged",
-      "attributeName": "https://uri.etsi.org/ngsi-ld/attributeName",
-      "reason": "https://uri.etsi.org/ngsi-ld/reason",
-      "timerel": "https://uri.etsi.org/ngsi-ld/timerel",
+      "updated": "https://edelirio.github.io/updated",
+      "unchanged": "https://edelirio.github.io/unchanged",
+      "attributeName": "https://edelirio.github.io/attributeName",
+      "reason": "https://edelirio.github.io/reason",
+      "timerel": "https://edelirio.github.io/timerel",
       "time": {
-        "@id": "https://uri.etsi.org/ngsi-ld/time",
+        "@id": "https://edelirio.github.io/time",
         "@type": "DateTime"
       },
       "endTime": {
-        "@id": "https://uri.etsi.org/ngsi-ld/endTime",
+        "@id": "https://edelirio.github.io/endTime",
         "@type": "DateTime"
       },
-      "timeproperty": "https://uri.etsi.org/ngsi-ld/timeproperty",
+      "timeproperty": "https://edelirio.github.io/timeproperty",
       "subscriptionId": {
-        "@id": "https://uri.etsi.org/ngsi-ld/subscriptionId",
+        "@id": "https://edelirio.github.io/subscriptionId",
         "@type": "@id"
       },
       "notifiedAt":{
-        "@id": "https://uri.etsi.org/ngsi-ld/notifiedAt",
+        "@id": "https://edelirio.github.io/notifiedAt",
         "@type": "DateTime"
       },
-      "data": "https://uri.etsi.org/ngsi-ld/data",
-      "triggerReason": "https://uri.etsi.org/ngsi-ld/triggerReason",
+      "data": "https://edelirio.github.io/data",
+      "triggerReason": "https://edelirio.github.io/triggerReason",
       "values":{
-          "@id": "https://uri.etsi.org/ngsi-ld/hasValues",
+          "@id": "https://edelirio.github.io/hasValues",
           "@container": "@list"
       },
       "objects":{
-          "@id": "https://uri.etsi.org/ngsi-ld/hasObjects",
+          "@id": "https://edelirio.github.io/hasObjects",
 	      "@type": "@id",
 	      "@container": "@list"
-      },
-      "@vocab": "https://fiware.github.io/data-models/context.jsonld"
+      }
     }
 }
