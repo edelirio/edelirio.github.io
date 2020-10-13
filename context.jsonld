@@ -34,7 +34,15 @@
         "@type": "@id"
       },
       "unitCode": "https://edelirio.github.io/ngsi-ld/unitCode",
-      "location": "https://edelirio.github.io/ngsi-ld/location",
+      "location": {
+		"@id":"https://edelirio.github.io/ngsi-ld/location",
+        "@type": "https://edelirio.github.io/ngsi-ld/GeoProperty",
+        "value": {
+			"@id": "https://uri.etsi.org/ngsi-ld/hasValue",
+            "@type": "Point",
+            "coordinates": "https://edelirio.github.io/ngsi-ld/coordinates"
+        } 
+	  },
       "observationSpace": "https://edelirio.github.io/ngsi-ld/observationSpace",
       "operationSpace": "https://edelirio.github.io/ngsi-ld/operationSpace",
       "GeoProperty": "https://edelirio.github.io/ngsi-ld/GeoProperty",
