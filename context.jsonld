@@ -61,6 +61,10 @@
         "@id": "https://edelirio.github.io/ngsi-ld/properties",
         "@type": "@vocab"
       },
+	  "refDeviceModel": {
+            "@id": "https://uri.fiware.org/ns/data-models#refDeviceModel",
+            "@type": "@id"
+        },
       "relationships": {
         "@id": "https://edelirio.github.io/ngsi-ld/relationships",
         "@type": "@vocab"
