@@ -33,6 +33,10 @@
         "@id": "https://edelirio.github.io/ngsi-ld/instanceId",
         "@type": "@id"
       },
+	  "beginAt":{
+        "@id": "https://uri.etsi.org/ngsi-ld/beginAt",
+        "@type": "DateTime"
+      },
       "finishAt":{
         "@id": "https://uri.etsi.org/ngsi-ld/finishAt",
         "@type": "DateTime"
