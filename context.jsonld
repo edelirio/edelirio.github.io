@@ -33,6 +33,16 @@
         "@id": "https://edelirio.github.io/ngsi-ld/instanceId",
         "@type": "@id"
       },
+	  "beginAt":{
+        "@id": "https://uri.etsi.org/ngsi-ld/beginAt",
+        "@type": ""https://edelirio.github.io/ngsi-ld/DateTime""
+      },
+      "finishAt":{
+        "@id": "https://uri.etsi.org/ngsi-ld/finishAt",
+        "@type": ""https://edelirio.github.io/ngsi-ld/DateTime""
+      },
+	  "responsiblePerson":"https://uri.etsi.org/ngsi-ld/responsiblePerson",
+	  "severity":"https://uri.etsi.org/ngsi-ld/severity",
       "unitCode": "https://edelirio.github.io/ngsi-ld/unitCode",
       "location": "https://edelirio.github.io/ngsi-ld/location",
       "observationSpace": "https://edelirio.github.io/ngsi-ld/observationSpace",
