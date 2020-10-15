@@ -34,12 +34,12 @@
         "@type": "@id"
       },
 	  "beginAt":{
-        "@id": "https://uri.etsi.org/ngsi-ld/beginAt",
-        "@type": "DateTime"
+        "@id": "https://edelirio.github.io/ngsi-ld/beginAt",
+        "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
       },
       "finishAt":{
-        "@id": "https://uri.etsi.org/ngsi-ld/finishAt",
-        "@type": "DateTime"
+        "@id": "https://edelirio.github.io/ngsi-ld/finishAt",
+        "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
       },
 	  "responsiblePerson":"https://edelirio.github.io/ngsi-ld/responsiblePerson",
 	  "severity":"https://edelirio.github.io/ngsi-ld/severity",
