@@ -44,7 +44,7 @@
 	  "responsiblePerson":"https://edelirio.github.io/ngsi-ld/responsiblePerson",
 	  "severity":"https://edelirio.github.io/ngsi-ld/severity",
       "unitCode": "https://edelirio.github.io/ngsi-ld/unitCode",
-      "location": "https://edelirio.github.io/ngsi-ld/location",
+      "location": "http://uri.etsi.org/ngsi-ld/location",
       "observationSpace": "https://edelirio.github.io/ngsi-ld/observationSpace",
       "operationSpace": "https://edelirio.github.io/ngsi-ld/operationSpace",
       "GeoProperty": "https://edelirio.github.io/ngsi-ld/GeoProperty",
