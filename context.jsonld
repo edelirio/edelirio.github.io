@@ -41,8 +41,8 @@
         "@id": "https://uri.etsi.org/ngsi-ld/finishAt",
         "@type": "DateTime"
       },
-	  "responsiblePerson":"https://uri.etsi.org/ngsi-ld/responsiblePerson",
-	  "severity":"https://uri.etsi.org/ngsi-ld/severity",
+	  "responsiblePerson":"https://edelirio.github.io/ngsi-ld/responsiblePerson",
+	  "severity":"https://edelirio.github.io/ngsi-ld/severity",
       "unitCode": "https://edelirio.github.io/ngsi-ld/unitCode",
       "location": "https://edelirio.github.io/ngsi-ld/location",
       "observationSpace": "https://edelirio.github.io/ngsi-ld/observationSpace",
