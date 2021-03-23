@@ -25,6 +25,10 @@
         "@id": "https://edelirio.github.io/ngsi-ld/observedAt",
         "@type": "DateTime"
       },
+      "detectedBy": {
+        "@id": "https://edelirio.github.io/ngsi-ld/detectedBy",
+        "@type": "@id"
+      },	    
       "datasetId": {
         "@id": "https://edelirio.github.io/ngsi-ld/datasetId",
         "@type": "@id"
